@@ -1,0 +1,110 @@
+body {
+    background-color: black;
+}
+.nav-1{
+    border-radius: 10px;
+    border-color:  rgb(64, 64, 179);
+    border: 2px solid rgb(97, 97, 173);
+    background-color: antiquewhite;
+    padding: 20px
+}
+.navbar-top{
+    border:10px;
+}
+.text-1{
+    text-shadow: 2px rgb(33, 36, 175);
+    font-size: larger;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+    background-size: 20px;
+    text-shadow: 5px rebeccapurple;
+}
+
+.nav-2{
+    width: 300px;
+    height: 550px;
+    background-color: aliceblue;
+    margin: 5px;
+    padding: 10px;
+}
+.navbar-left{
+    padding: 10px;
+    background-color: black;
+    flex-direction: column;
+}
+.t1{
+    background-color:black;
+    text-align: center;
+    text-decoration-line: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 5px;
+}
+.img-1 {
+    border-color: 2px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.blink {
+    width: 220px;
+    height: 50px;
+    padding: 10px;
+    text-align: end;
+    line-height: 50px;
+  }
+  span {
+    font-size: 26px;
+    font-family: cursive;
+    color:black;
+    animation: blink 2s linear infinite;
+  }
+  @keyframes blink {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: .5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+.nav-0{
+  background-color: rgb(23, 68, 108);
+  padding: 10px;
+  float: right;
+  margin-right: 400px;
+  margin-top: 100px;
+}
+.text-2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  color: azure;
+  text-align: start;
+  size: 20px;
+}
+
+.Home{
+  background-color: azure;
+  padding: 100px;
+  margin: 10px;
+}
+.sc-1{
+  background-color: black;
+  float: left;
+  display: flex;
+  flex-direction: row;
+}
+
+
+
